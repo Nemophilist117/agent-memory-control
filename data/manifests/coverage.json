@@ -1,0 +1,113 @@
+{
+  "main": {
+    "scenarios": 600,
+    "history_types": {
+      "short": 200,
+      "multi_stage": 200,
+      "long_history": 200
+    },
+    "primary_operations": {
+      "DELETE": 150,
+      "INVALIDATE": 150,
+      "SUPERSEDE": 150,
+      "ISOLATE": 150
+    },
+    "query_events": {
+      "normal_task": 1900,
+      "probe": 4550
+    },
+    "sources": {
+      "LongMemEval cleaned oracle": 348,
+      "CoMem": 248,
+      "LongMemEval-V2": 4
+    }
+  },
+  "included": {
+    "scenarios": 587,
+    "history_types": {
+      "multi_stage": 194,
+      "short": 197,
+      "long_history": 196
+    },
+    "primary_operations": {
+      "ISOLATE": 148,
+      "DELETE": 148,
+      "SUPERSEDE": 146,
+      "INVALIDATE": 145
+    },
+    "query_events": {
+      "normal_task": 1860,
+      "probe": 4451
+    },
+    "sources": {
+      "LongMemEval cleaned oracle": 335,
+      "CoMem": 248,
+      "LongMemEval-V2": 4
+    }
+  },
+  "recoverable": {
+    "scenarios": 13,
+    "history_types": {
+      "multi_stage": 6,
+      "short": 3,
+      "long_history": 4
+    },
+    "primary_operations": {
+      "INVALIDATE": 5,
+      "ISOLATE": 2,
+      "SUPERSEDE": 4,
+      "DELETE": 2
+    },
+    "query_events": {
+      "normal_task": 40,
+      "probe": 99
+    },
+    "sources": {
+      "LongMemEval cleaned oracle": 13
+    }
+  },
+  "stage240": {
+    "scenarios": 240,
+    "history_types": {
+      "long_history": 80,
+      "multi_stage": 80,
+      "short": 80
+    },
+    "primary_operations": {
+      "DELETE": 60,
+      "INVALIDATE": 60,
+      "ISOLATE": 60,
+      "SUPERSEDE": 60
+    },
+    "query_events": {
+      "normal_task": 760,
+      "probe": 1820
+    },
+    "sources": {
+      "LongMemEval cleaned oracle": 187,
+      "CoMem": 53
+    }
+  },
+  "stage240_included": {
+    "scenarios": 234,
+    "history_types": {
+      "multi_stage": 77,
+      "short": 79,
+      "long_history": 78
+    },
+    "primary_operations": {
+      "DELETE": 60,
+      "ISOLATE": 59,
+      "INVALIDATE": 56,
+      "SUPERSEDE": 59
+    },
+    "query_events": {
+      "normal_task": 741,
+      "probe": 1774
+    },
+    "sources": {
+      "LongMemEval cleaned oracle": 181,
+      "CoMem": 53
+    }
+  }
+}
